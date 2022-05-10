@@ -264,6 +264,18 @@
     width: 100%;
     height: 946px;
   }
+  .color{
+    text-align: center;
+    height: 39%;
+    padding: 14px;
+  }
+  .colorLateral{
+    width: 190%;
+  }
+  .mapa{
+    width: 190%;
+  }
+  
 }
 @media screen and (max-width: 600px){
   main{
@@ -281,7 +293,18 @@
     margin: 0 0 10px 0;
     align-items: center;
   }
+  .color{
+    text-align: center;
+    height: 45%;
+    padding: 14px;
+  }
+  .teclado{
+    width: 190%;
+  }
 }
+  .mapa{
+  width:229%;
+  }
 @media screen and (max-width: 360px){
   main{
     width: 100%;
@@ -317,4 +340,13 @@
     font-size: 12%;
     text-align: center;
   }
+  .principal{
+    font-size: 12px;
+    display: flex;
+    padding: 0 0px;
+  }
+  .teclado{
+    width: 190%;
+  }
+
 }
