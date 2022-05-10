@@ -282,3 +282,39 @@
     align-items: center;
   }
 }
+@media screen and (max-width: 360px){
+  main{
+    width: 100%;
+  }
+  header{
+    flex-direction: column;
+    text-align: center;
+    font-size: 74%;
+    padding: 12px;
+
+  }
+  nav{
+    text-align: left;
+    width: 100%;
+    display: flex;
+
+  }
+  .cabecera p{
+    font-size: 15px;  
+  }
+  .subscrip{
+    text-align: center;
+    height: 8%;
+  }
+  .form{
+    font-size: 10%;
+    height: 8%;
+    padding: 12px;
+    align-items: center;
+  }
+  .footer{
+    height: 12px;
+    font-size: 12%;
+    text-align: center;
+  }
+}
